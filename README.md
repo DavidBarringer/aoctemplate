@@ -5,6 +5,7 @@ A template for Advent Of Code written in and for Common Lisp
 Make sure you have installed:
 - A Common Lisp REPL (most ideally [SBCL](http://www.sbcl.org/))
 - [quicklisp](https://www.quicklisp.org/beta/)
+
 I also use [SLIME](https://common-lisp.net/project/slime/) for easier loading of files
 
 ## Usage
