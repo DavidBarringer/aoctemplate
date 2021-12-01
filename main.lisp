@@ -129,7 +129,7 @@
 ;;; This function runs file given amount of times and averages the real times
 (defun bench-fraction (func-name &rest args)
   (let ((t1 (get-internal-real-time)))
-    (funcall func-name args)
+    (apply func-name args)
     (let ((t2 (get-internal-real-time)))
       (/ (- t2 t1) internal-time-units-per-second))))
 (setf sb-ext:*muffled-warnings* nil)

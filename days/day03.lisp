@@ -1,6 +1,6 @@
 ;; Put the given solutions for the examples here
-(defvar test-sol-a "No test solution")
-(defvar test-sol-b "No test solution")
+(setf test-sol-a "No test solution")
+(setf test-sol-b "No test solution")
 
 ;; Turn the input file into whatever form you will use for both parts
 ;; (get-file-lines) and (get-file-string) will be useful
