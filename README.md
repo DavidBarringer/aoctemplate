@@ -13,7 +13,7 @@ Start your LISP REPL in the template directory, type `(load "main")` in the REPL
 `(ld <day-number>)` to load that day into the REPL, this will attempt to run the parser and the solutions
 to both parts of the problem. If successful, the results will be stored in a day structure that will be shown
 and can be accessed by typing `day#` in the REPL, where `#` is the day number. You can compare the example
-solutions with yours by using the `(test)` function. Other functions with full descriptions can be seen by
+solutions with yours by using the `(test-days)` function. Other functions with full descriptions can be seen by
 typing `(help)` in the REPL.
 
 ### Input files
